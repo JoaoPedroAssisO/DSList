@@ -22,11 +22,15 @@ public class Game {
 	
 	@Column(name = "Game_year")
 	private Integer year;
-	private String genere;
+	private String genre;
 	private String platforms;
 	private Double score;
 	private String imgUrl;
-	private String shortDescripition;
+	
+	@Column(columnDefinition = "TEXT")
+	private String shortDescription;
+	
+	@Column(columnDefinition = "TEXT")
 	private String longDescription;
 	
 	public Game() {
@@ -34,16 +38,16 @@ public class Game {
 	}
 	
 	
-    public Game(Long id, String title, Integer year, String genere, String platforms, Double score, String imgUrl,
-			String shortDescripition, String longDescription) {
+    public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl,
+			String shortDescription, String longDescription) {
 		this.id = id;
 		this.title = title;
 		this.year = year;
-		this.genere = genere;
+		this.genre = genre;
 		this.platforms = platforms;
 		this.score = score;
 		this.imgUrl = imgUrl;
-		this.shortDescripition = shortDescripition;
+		this.shortDescription = shortDescription;
 		this.longDescription = longDescription;
 	}
 
@@ -73,12 +77,12 @@ public class Game {
 		this.year = year;
 	}
 
-	public String getGenere() {
-		return genere;
+	public String getgenre() {
+		return genre;
 	}
 
 	public void setGenere(String genere) {
-		this.genere = genere;
+		this.genre = genre;
 	}
 
 	public String getPlatforms() {
@@ -105,12 +109,12 @@ public class Game {
 		this.imgUrl = imgUrl;
 	}
 
-	public String getShortDescripition() {
-		return shortDescripition;
+	public String getShortDescription() {
+		return shortDescription;
 	}
 
-	public void setShortDescripition(String shortDescripition) {
-		this.shortDescripition = shortDescripition;
+	public void setShortDescription(String shortDescripition) {
+		this.shortDescription = shortDescripition;
 	}
 
 	public String getLongDescription() {
