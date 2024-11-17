@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>>>>>>> 29fa2195cb3d4f6e68ef9908baefb9d1cc0c4a06
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.3.5</version>
+<<<<<<< HEAD
 		<relativePath /> <!-- lookup parent from repository -->
+=======
+		<relativePath/> <!-- lookup parent from repository -->
+>>>>>>> 29fa2195cb3d4f6e68ef9908baefb9d1cc0c4a06
 	</parent>
 	<groupId>com.devsuperior</groupId>
 	<artifactId>dslist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dslist</name>
 	<description>Intensivão Java Spring</description>
+<<<<<<< HEAD
 	<url />
 	<licenses>
 		<license />
@@ -26,6 +35,20 @@
 		<developerConnection />
 		<tag />
 		<url />
+=======
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+>>>>>>> 29fa2195cb3d4f6e68ef9908baefb9d1cc0c4a06
 	</scm>
 	<properties>
 		<java.version>21</java.version>
@@ -39,6 +62,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 29fa2195cb3d4f6e68ef9908baefb9d1cc0c4a06
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
@@ -58,12 +85,20 @@
 
 	<build>
 		<plugins>
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 29fa2195cb3d4f6e68ef9908baefb9d1cc0c4a06
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
 				<version>3.1.0</version> <!--$NO-MVN-MAN-VER$ -->
 			</plugin>
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> 29fa2195cb3d4f6e68ef9908baefb9d1cc0c4a06
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>

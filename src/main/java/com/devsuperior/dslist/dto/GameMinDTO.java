@@ -1,7 +1,12 @@
 package com.devsuperior.dslist.dto;
 
 import com.devsuperior.dslist.entities.Game;
+<<<<<<< HEAD
 import com.devsuperior.dslist.projections.GameMinProjection;
+=======
+
+import jakarta.persistence.Column;
+>>>>>>> 29fa2195cb3d4f6e68ef9908baefb9d1cc0c4a06
 
 public class GameMinDTO {
 
@@ -11,6 +16,13 @@ public class GameMinDTO {
 	private String imgUrl;
 	private String shortDescription;
 	
+<<<<<<< HEAD
+=======
+	public GameMinDTO() {
+		
+	}
+
+>>>>>>> 29fa2195cb3d4f6e68ef9908baefb9d1cc0c4a06
 	public GameMinDTO(Game entity) {
 		id = entity.getId();
 		title = entity.getTitle();
@@ -19,6 +31,7 @@ public class GameMinDTO {
 		shortDescription = entity.getShortDescription();
 	}
 
+<<<<<<< HEAD
 	public GameMinDTO(GameMinProjection projection) {
 		id = projection.getId();
 		title = projection.getTitle();
@@ -27,6 +40,8 @@ public class GameMinDTO {
 		shortDescription = projection.getShortDescription();
 	}
 
+=======
+>>>>>>> 29fa2195cb3d4f6e68ef9908baefb9d1cc0c4a06
 	public Long getId() {
 		return id;
 	}
@@ -46,4 +61,11 @@ public class GameMinDTO {
 	public String getShortDescription() {
 		return shortDescription;
 	}
+<<<<<<< HEAD
+=======
+	
+	
+	
+	
+>>>>>>> 29fa2195cb3d4f6e68ef9908baefb9d1cc0c4a06
 }
